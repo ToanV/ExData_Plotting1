@@ -29,7 +29,7 @@ plot(strptime(paste(pwr_consumption$Date, pwr_consumption$Time), "%d/%m/%Y %H:%M
       ,pwr_consumption$Sub_metering_1
       ,type="l"
       ,xlab=""
-      ,ylab="Global Active Power (kilowatts)"
+      ,ylab="Energy sub metering"
     )
 
 ## Plot Date_Time with Sub_metering_2 in RED
