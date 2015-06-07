@@ -79,7 +79,7 @@ plot(strptime(paste(pwr_consumption$Date, pwr_consumption$Time), "%d/%m/%Y %H:%M
      ,pwr_consumption$Global_reactive_power
      ,type="l"
      ,xlab="datetime"
-     ,ylab="Voltage"
+     ,ylab="Global_reactive_power"
 )
 
 dev.off()
